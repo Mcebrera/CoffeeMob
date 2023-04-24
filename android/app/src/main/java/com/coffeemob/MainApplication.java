@@ -1,4 +1,5 @@
 package com.coffeemob;
+import org.wonday.orientation.OrientationActivityLifecycle;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
@@ -58,5 +59,8 @@ public class MainApplication extends Application implements ReactApplication {
       DefaultNewArchitectureEntryPoint.load();
     }
     ReactNativeFlipper.initializeFlipper(this, getReactNativeHost().getReactInstanceManager());
+
+    // react-native-orientation-locker
+    registerActivityLifecycleCallbacks(OrientationActivityLifecycle.getInstance());
   }
 }
