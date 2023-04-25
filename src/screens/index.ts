@@ -1,5 +1,5 @@
 export { default as HomeScreen } from './HomeScreen';
 export { default as LaunchScreen } from './LaunchScreen';
-export { default as BoardScreen } from './BoardScreen';
-export { default as SettingsScreen } from './SettingsScreen';
-export { default as InstructionsScreen } from './InstructionsScreen';
+export { default as MenuScreen } from './MenuScreen';
+export { default as OrderScreen } from './OrderScreen';
+export { default as MoreScreen } from './MoreScreen';

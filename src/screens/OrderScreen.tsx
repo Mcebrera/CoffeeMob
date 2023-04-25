@@ -1,8 +1,7 @@
 import React from 'react';
 import { Text, View } from 'react-native';
-import { HomeIcon } from '../assets/icons';
 
-const HomeScreen = () => {
+const OrderScreen = () => {
     return (
         <View
             style={{
@@ -11,9 +10,9 @@ const HomeScreen = () => {
                 alignItems: 'center',
                 backgroundColor: 'white',
             }}>
-            <Text>Home</Text>
+            <Text>Order</Text>
         </View>
     );
 };
 
-export default HomeScreen;
+export default OrderScreen;
