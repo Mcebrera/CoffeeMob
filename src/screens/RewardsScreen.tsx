@@ -4,7 +4,7 @@ import { useTheme } from '../context';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { TextStyles } from '../styles';
 
-const MoreScreen: React.FunctionComponent = () => {
+const RewardsScreen: React.FunctionComponent = () => {
     const [theme] = useTheme();
     const insets = useSafeAreaInsets();
 
@@ -18,9 +18,9 @@ const MoreScreen: React.FunctionComponent = () => {
                 paddingTop: insets.top + 20,
                 paddingHorizontal: 20,
             }}>
-            <Text style={TextStyles.largeTitle}>More</Text>
+            <Text style={TextStyles.largeTitle}>Rewards</Text>
         </View>
     );
 };
 
-export default MoreScreen;
+export default RewardsScreen;

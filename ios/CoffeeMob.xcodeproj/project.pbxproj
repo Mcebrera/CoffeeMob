@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* CoffeeMobTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CoffeeMobTests.m */; };
+		05BB9146F00FA1FD976935D1 /* libPods-CoffeeMob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90731A7751EAD4616CA54F2E /* libPods-CoffeeMob.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		BDF68B74AFB44FCDECB545E0 /* libPods-CoffeeMob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C4FF59269E01A0A3DCB099 /* libPods-CoffeeMob.a */; };
-		DBABDA29786D25B34D339210 /* libPods-CoffeeMob-CoffeeMobTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6943403C970A4EFD26EC12 /* libPods-CoffeeMob-CoffeeMobTests.a */; };
+		E8B811E55950852088E79AA7 /* libPods-CoffeeMob-CoffeeMobTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1D751DB5C9365D473D4582 /* libPods-CoffeeMob-CoffeeMobTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +30,20 @@
 		00E356EE1AD99517003FC87E /* CoffeeMobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeMobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* CoffeeMobTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeMobTests.m; sourceTree = "<group>"; };
+		0B1D751DB5C9365D473D4582 /* libPods-CoffeeMob-CoffeeMobTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeMob-CoffeeMobTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* CoffeeMob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeMob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CoffeeMob/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = CoffeeMob/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CoffeeMob/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CoffeeMob/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CoffeeMob/main.m; sourceTree = "<group>"; };
-		33C4FF59269E01A0A3DCB099 /* libPods-CoffeeMob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeMob.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F3D00816DD6F7999A528DA6 /* Pods-CoffeeMob-CoffeeMobTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeMob-CoffeeMobTests.debug.xcconfig"; path = "Target Support Files/Pods-CoffeeMob-CoffeeMobTests/Pods-CoffeeMob-CoffeeMobTests.debug.xcconfig"; sourceTree = "<group>"; };
+		503BA32C002BE54EBA5DA6B6 /* Pods-CoffeeMob-CoffeeMobTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeMob-CoffeeMobTests.release.xcconfig"; path = "Target Support Files/Pods-CoffeeMob-CoffeeMobTests/Pods-CoffeeMob-CoffeeMobTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CoffeeMob/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AAB22698C93B4CD596AD0D0E /* Pods-CoffeeMob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeMob.release.xcconfig"; path = "Target Support Files/Pods-CoffeeMob/Pods-CoffeeMob.release.xcconfig"; sourceTree = "<group>"; };
-		D4BBDE55899D1182AC187611 /* Pods-CoffeeMob-CoffeeMobTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeMob-CoffeeMobTests.release.xcconfig"; path = "Target Support Files/Pods-CoffeeMob-CoffeeMobTests/Pods-CoffeeMob-CoffeeMobTests.release.xcconfig"; sourceTree = "<group>"; };
-		DC6943403C970A4EFD26EC12 /* libPods-CoffeeMob-CoffeeMobTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeMob-CoffeeMobTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90731A7751EAD4616CA54F2E /* libPods-CoffeeMob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeMob.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4BB62A459E2976218318D98 /* Pods-CoffeeMob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeMob.release.xcconfig"; path = "Target Support Files/Pods-CoffeeMob/Pods-CoffeeMob.release.xcconfig"; sourceTree = "<group>"; };
+		E15360A05DCE5D8DA055CA95 /* Pods-CoffeeMob-CoffeeMobTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeMob-CoffeeMobTests.debug.xcconfig"; path = "Target Support Files/Pods-CoffeeMob-CoffeeMobTests/Pods-CoffeeMob-CoffeeMobTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F8983F420D5F198D7C790CBB /* Pods-CoffeeMob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeMob.debug.xcconfig"; path = "Target Support Files/Pods-CoffeeMob/Pods-CoffeeMob.debug.xcconfig"; sourceTree = "<group>"; };
+		F30D95A368DF2841F08F64C1 /* Pods-CoffeeMob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeMob.debug.xcconfig"; path = "Target Support Files/Pods-CoffeeMob/Pods-CoffeeMob.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBABDA29786D25B34D339210 /* libPods-CoffeeMob-CoffeeMobTests.a in Frameworks */,
+				E8B811E55950852088E79AA7 /* libPods-CoffeeMob-CoffeeMobTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDF68B74AFB44FCDECB545E0 /* libPods-CoffeeMob.a in Frameworks */,
+				05BB9146F00FA1FD976935D1 /* libPods-CoffeeMob.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				33C4FF59269E01A0A3DCB099 /* libPods-CoffeeMob.a */,
-				DC6943403C970A4EFD26EC12 /* libPods-CoffeeMob-CoffeeMobTests.a */,
+				90731A7751EAD4616CA54F2E /* libPods-CoffeeMob.a */,
+				0B1D751DB5C9365D473D4582 /* libPods-CoffeeMob-CoffeeMobTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F8983F420D5F198D7C790CBB /* Pods-CoffeeMob.debug.xcconfig */,
-				AAB22698C93B4CD596AD0D0E /* Pods-CoffeeMob.release.xcconfig */,
-				6F3D00816DD6F7999A528DA6 /* Pods-CoffeeMob-CoffeeMobTests.debug.xcconfig */,
-				D4BBDE55899D1182AC187611 /* Pods-CoffeeMob-CoffeeMobTests.release.xcconfig */,
+				F30D95A368DF2841F08F64C1 /* Pods-CoffeeMob.debug.xcconfig */,
+				A4BB62A459E2976218318D98 /* Pods-CoffeeMob.release.xcconfig */,
+				E15360A05DCE5D8DA055CA95 /* Pods-CoffeeMob-CoffeeMobTests.debug.xcconfig */,
+				503BA32C002BE54EBA5DA6B6 /* Pods-CoffeeMob-CoffeeMobTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CoffeeMobTests" */;
 			buildPhases = (
-				432049E461465D7CC0FA426A /* [CP] Check Pods Manifest.lock */,
+				189043AE5E0E90E557B20026 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				6237FB8AA2C8FBFA9D33E626 /* [CP] Embed Pods Frameworks */,
-				BF1C674EDD2F09D5F1F879DF /* [CP] Copy Pods Resources */,
+				67A3DBC18FDF1CF8EEE917B4 /* [CP] Embed Pods Frameworks */,
+				BE76CE4FDE3B03D78B7D0DC9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +176,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CoffeeMob" */;
 			buildPhases = (
-				A60D8533FEE420D5A2BF2CF1 /* [CP] Check Pods Manifest.lock */,
+				EC693F66E485516145C9FFD3 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				0279E22A50752B8910DF345C /* [CP] Embed Pods Frameworks */,
-				4B642FEE99B8E759AE23FB56 /* [CP] Copy Pods Resources */,
+				47B02703A4D5F7954A7A9727 /* [CP] Embed Pods Frameworks */,
+				F97579971EB1611578D32E96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,24 +266,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		0279E22A50752B8910DF345C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CoffeeMob/Pods-CoffeeMob-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CoffeeMob/Pods-CoffeeMob-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoffeeMob/Pods-CoffeeMob-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		432049E461465D7CC0FA426A /* [CP] Check Pods Manifest.lock */ = {
+		189043AE5E0E90E557B20026 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -305,24 +288,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4B642FEE99B8E759AE23FB56 /* [CP] Copy Pods Resources */ = {
+		47B02703A4D5F7954A7A9727 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CoffeeMob/Pods-CoffeeMob-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeeMob/Pods-CoffeeMob-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CoffeeMob/Pods-CoffeeMob-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeeMob/Pods-CoffeeMob-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoffeeMob/Pods-CoffeeMob-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoffeeMob/Pods-CoffeeMob-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6237FB8AA2C8FBFA9D33E626 /* [CP] Embed Pods Frameworks */ = {
+		67A3DBC18FDF1CF8EEE917B4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -339,7 +322,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoffeeMob-CoffeeMobTests/Pods-CoffeeMob-CoffeeMobTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A60D8533FEE420D5A2BF2CF1 /* [CP] Check Pods Manifest.lock */ = {
+		BE76CE4FDE3B03D78B7D0DC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeeMob-CoffeeMobTests/Pods-CoffeeMob-CoffeeMobTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeeMob-CoffeeMobTests/Pods-CoffeeMob-CoffeeMobTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoffeeMob-CoffeeMobTests/Pods-CoffeeMob-CoffeeMobTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC693F66E485516145C9FFD3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,21 +361,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BF1C674EDD2F09D5F1F879DF /* [CP] Copy Pods Resources */ = {
+		F97579971EB1611578D32E96 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CoffeeMob-CoffeeMobTests/Pods-CoffeeMob-CoffeeMobTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeeMob/Pods-CoffeeMob-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CoffeeMob-CoffeeMobTests/Pods-CoffeeMob-CoffeeMobTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeeMob/Pods-CoffeeMob-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoffeeMob-CoffeeMobTests/Pods-CoffeeMob-CoffeeMobTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoffeeMob/Pods-CoffeeMob-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -430,7 +430,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F3D00816DD6F7999A528DA6 /* Pods-CoffeeMob-CoffeeMobTests.debug.xcconfig */;
+			baseConfigurationReference = E15360A05DCE5D8DA055CA95 /* Pods-CoffeeMob-CoffeeMobTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -457,7 +457,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4BBDE55899D1182AC187611 /* Pods-CoffeeMob-CoffeeMobTests.release.xcconfig */;
+			baseConfigurationReference = 503BA32C002BE54EBA5DA6B6 /* Pods-CoffeeMob-CoffeeMobTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -481,13 +481,14 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8983F420D5F198D7C790CBB /* Pods-CoffeeMob.debug.xcconfig */;
+			baseConfigurationReference = F30D95A368DF2841F08F64C1 /* Pods-CoffeeMob.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = CoffeeMob/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -508,12 +509,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAB22698C93B4CD596AD0D0E /* Pods-CoffeeMob.release.xcconfig */;
+			baseConfigurationReference = A4BB62A459E2976218318D98 /* Pods-CoffeeMob.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = CoffeeMob/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

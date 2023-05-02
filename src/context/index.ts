@@ -1,3 +1,4 @@
 import { useStores, useRootContainer } from './ContextContainer';
+import { useTheme } from './ThemeContext';
 
-export { useStores, useRootContainer };
+export { useStores, useRootContainer, useTheme };

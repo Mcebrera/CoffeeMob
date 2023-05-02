@@ -2,7 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { RootNavigator } from '../navigators/';
 
-const LaunchScreen = () => {
+const LaunchScreen: React.FunctionComponent = () => {
     return (
         <NavigationContainer>
             <RootNavigator />

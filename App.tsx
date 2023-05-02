@@ -1,15 +1,20 @@
 import React from 'react';
 import Orientation from 'react-native-orientation-locker';
-import { NavigationContainer } from '@react-navigation/native';
 import LaunchScreen from './src/screens/LaunchScreen';
 import { RootContainerProvider } from './src/context/ContextContainer';
+import { ThemeProvider } from './src/context/ThemeContext';
+import { ActionSheetProvider } from '@expo/react-native-action-sheet';
 
 Orientation.lockToPortrait();
 
 export default function App() {
     return (
         <RootContainerProvider>
-            <LaunchScreen />
+            <ThemeProvider>
+                <ActionSheetProvider>
+                    <LaunchScreen />
+                </ActionSheetProvider>
+            </ThemeProvider>
         </RootContainerProvider>
     );
 }

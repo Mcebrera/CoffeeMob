@@ -1,17 +1,15 @@
 import React from 'react';
 import { Text, View } from 'react-native';
+import { useTheme } from '../context';
+import { OrderContainer } from '../components';
 
-const MenuScreen = () => {
+const MenuScreen: React.FunctionComponent = () => {
+    const [theme] = useTheme();
+
     return (
-        <View
-            style={{
-                flex: 1,
-                justifyContent: 'center',
-                alignItems: 'center',
-                backgroundColor: 'white',
-            }}>
+        <OrderContainer>
             <Text>Menu</Text>
-        </View>
+        </OrderContainer>
     );
 };
 

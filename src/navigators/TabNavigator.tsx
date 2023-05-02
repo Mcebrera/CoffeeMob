@@ -1,10 +1,22 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { HomeScreen, MenuScreen, OrderScreen, MoreScreen } from '../screens';
-import { CoffeeCupIcon, GearIcon, HomeIcon, MenuIcon } from '../assets/icons';
+import { MenuScreen, RewardsScreen, MoreScreen } from '../screens';
+import {
+    AccountCircleIcon,
+    CoffeeCupIcon,
+    MenuIcon,
+    StarIcon,
+} from '../assets/icons';
 import { Text } from 'react-native';
+import { useTheme } from '../context';
+import HomeNavigator from './HomeNavigator';
+import { MenuNavigator } from '.';
 
 const TabNavigator: React.FunctionComponent = () => {
     const Tab = createBottomTabNavigator();
+    const [theme] = useTheme();
+
+    const iconIsFocused = (focused: boolean) =>
+        focused ? theme.brown.secondary : theme.black;
 
     return (
         <Tab.Navigator
@@ -12,33 +24,46 @@ const TabNavigator: React.FunctionComponent = () => {
             screenOptions={({ route }) => ({
                 lazy: false,
                 headerShown: false,
+                tabBarStyle: {
+                    backgroundColor: theme.brown.primary,
+                    height: 90,
+                    paddingTop: 10,
+                },
                 tabBarIcon: ({ focused }) => {
                     const iconProps = {
                         width: 24,
                         height: 24,
                     };
 
-                    const iconIsFocused = focused ? '#AB6B51' : '#000000';
                     switch (route.name) {
-                        case 'home':
-                            return (
-                                <HomeIcon {...iconProps} fill={iconIsFocused} />
-                            );
-                        case 'order':
+                        case 'homeNav':
                             return (
                                 <CoffeeCupIcon
                                     {...iconProps}
-                                    fill={iconIsFocused}
+                                    fill={iconIsFocused(focused)}
                                 />
                             );
-                        case 'menu':
+                        case 'menuNav':
                             return (
-                                <MenuIcon {...iconProps} fill={iconIsFocused} />
+                                <MenuIcon
+                                    {...iconProps}
+                                    fill={iconIsFocused(focused)}
+                                />
+                            );
+                        case 'rewardsNav':
+                            return (
+                                <StarIcon
+                                    {...iconProps}
+                                    fill={iconIsFocused(focused)}
+                                />
                             );
 
-                        case 'more':
+                        case 'moreNav':
                             return (
-                                <GearIcon {...iconProps} fill={iconIsFocused} />
+                                <AccountCircleIcon
+                                    {...iconProps}
+                                    fill={iconIsFocused(focused)}
+                                />
                             );
                         default:
                             break;
@@ -46,52 +71,49 @@ const TabNavigator: React.FunctionComponent = () => {
                 },
             })}>
             <Tab.Screen
-                name="home"
-                component={HomeScreen}
+                name="homeNav"
+                component={HomeNavigator}
                 options={{
                     title: 'Home',
-                    tabBarLabel: ({ focused, color, size }) => (
-                        <Text
-                            style={{ color: focused ? '#AB6B51' : '#000000' }}>
+                    tabBarLabel: ({ focused, color }) => (
+                        <Text style={{ color: iconIsFocused(focused) }}>
                             Home
                         </Text>
                     ),
                 }}
             />
             <Tab.Screen
-                name="order"
-                component={OrderScreen}
-                options={{
-                    title: 'Order',
-                    tabBarLabel: ({ focused, color, size }) => (
-                        <Text
-                            style={{ color: focused ? '#AB6B51' : '#000000' }}>
-                            Order
-                        </Text>
-                    ),
-                }}
-            />
-            <Tab.Screen
-                name="menu"
-                component={MenuScreen}
+                name="menuNav"
+                component={MenuNavigator}
                 options={{
                     title: 'Menu',
-                    tabBarLabel: ({ focused, color, size }) => (
-                        <Text
-                            style={{ color: focused ? '#AB6B51' : '#000000' }}>
+                    tabBarLabel: ({ focused, color }) => (
+                        <Text style={{ color: iconIsFocused(focused) }}>
                             Menu
                         </Text>
                     ),
                 }}
             />
             <Tab.Screen
-                name="more"
+                name="rewardsNav"
+                component={RewardsScreen}
+                options={{
+                    title: 'Rewards',
+                    tabBarLabel: ({ focused, color }) => (
+                        <Text style={{ color: iconIsFocused(focused) }}>
+                            Rewards
+                        </Text>
+                    ),
+                }}
+            />
+
+            <Tab.Screen
+                name="moreNav"
                 component={MoreScreen}
                 options={{
                     title: 'More',
-                    tabBarLabel: ({ focused, color, size }) => (
-                        <Text
-                            style={{ color: focused ? '#AB6B51' : '#000000' }}>
+                    tabBarLabel: ({ focused, color }) => (
+                        <Text style={{ color: iconIsFocused(focused) }}>
                             More
                         </Text>
                     ),

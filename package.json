@@ -46,6 +46,7 @@
         "archive:ios:release": "pod install --project-directory=ios && npm run set-env -- --env prod && xcodebuild clean archive -workspace ./ios/Owners.xcworkspace -configuration Release -scheme Owners -archivePath ./ios/build/release/com.winnebago.owners.xcarchive && xcodebuild -exportArchive -archivePath ./ios/build/release/com.winnebago.owners.xcarchive -exportPath ./ios/build/release -exportOptionsPlist ./ios/ExportOptions.Release.plist"
     },
     "dependencies": {
+        "@expo/react-native-action-sheet": "^4.0.1",
         "@react-navigation/bottom-tabs": "^6.5.7",
         "@react-navigation/native": "^6.1.6",
         "@react-navigation/native-stack": "^6.9.12",
@@ -53,9 +54,11 @@
         "mobx-react": "^7.6.0",
         "react": "18.2.0",
         "react-native": "0.71.7",
+        "react-native-maps": "^1.7.1",
         "react-native-orientation-locker": "^1.5.0",
         "react-native-safe-area-context": "^4.5.1",
         "react-native-screens": "^3.20.0",
+        "react-native-snap-carousel": "^3.9.1",
         "react-native-svg": "^13.9.0"
     },
     "devDependencies": {
@@ -65,7 +68,7 @@
         "@react-native-community/eslint-config": "^3.2.0",
         "@tsconfig/react-native": "^2.0.2",
         "@types/jest": "^29.2.1",
-        "@types/react": "^18.0.24",
+        "@types/react": "^18.2.0",
         "@types/react-test-renderer": "^18.0.0",
         "babel-jest": "^29.2.1",
         "eslint": "^8.19.0",

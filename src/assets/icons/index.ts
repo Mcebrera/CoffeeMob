@@ -1,6 +1,15 @@
-import HomeIcon from './Home.svg';
 import CoffeeCupIcon from './CoffeeCup.svg';
-import GearIcon from './Gear.svg';
+import StarIcon from './Star.svg';
 import MenuIcon from './Menu.svg';
+import AccountCircleIcon from './AccountCircle.svg';
+import ChevronDownIcon from './ChevronDown.svg';
+import CloseXIcon from './CloseX.svg';
 
-export { HomeIcon, CoffeeCupIcon, GearIcon, MenuIcon };
+export {
+    CoffeeCupIcon,
+    StarIcon,
+    MenuIcon,
+    AccountCircleIcon,
+    ChevronDownIcon,
+    CloseXIcon,
+};
